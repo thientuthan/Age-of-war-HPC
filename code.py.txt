@@ -1,0 +1,14 @@
+# main.py
+# Entry point cho game Age of War
+def main():
+    print("Welcome to Age of War!")
+    print("1. Start Game")
+    print("2. Exit")
+    choice = input("Choose an option: ")
+    if choice == "1":
+        print("Game started...")
+    else:
+        print("Goodbye!")
+
+if __name__ == "__main__":
+    main()
